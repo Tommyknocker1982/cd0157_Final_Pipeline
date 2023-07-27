@@ -6,7 +6,7 @@ COPY . /app
 WORKDIR /app
 
 RUN pip install --upgrade pip
-RUN pip install flask==2.3.2
+RUN pip install flask==2.2.5
 
 
 ENTRYPOINT ["python", "app.py"]
